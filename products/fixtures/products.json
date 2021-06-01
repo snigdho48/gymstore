@@ -1,0 +1,701 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP100590580020-1R",
+            "name": "15 x ROX protein bar, 55 g",
+            "description": "Rox Protein Bar from Fast Nutrition is a protein-rich snack with fantastic taste and texture. This bar consists of three layers - with a soft texture in the middle, creamy middle layer and covered with a crispy casing. These bars are gluten and palm oil free.",
+            "price": 26.28,
+            "category": 2,
+            "rating": 3,
+            "image_url": "",
+            "image": "SETROXBAR_FAST_ROX-protein-bar-55-g-berry-chocolate-crisp_0920.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "15 x Goodlife Low Sugar, 50 g",
+            "description": "Each Goodlife protein bar provides approximately 190 kcal, 16 g of protein and 20 g of carbohydrates. Goodlife is perfect as a snack at any time of the day.",
+            "price": 11.5,
+            "category": 2,
+            "rating": 4,
+            "image_url": "",
+            "image": "SETGOODLIFEPACK_Goodlife-chocolate-Hazelnut-cream-Box.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP7350R",
+            "name": "Dalblads 15 x Swebar, 55 g",
+            "description": "Dalblads is a Swedish dietary supplement company that was founded in the late 90s. The company's focus is doping - free, tested and affordable products with high efficiency and good taste. Dalblads is aimed at all exercisers and elites who want to perform or feel better.",
+            "price": 19.99,
+            "category": 2,
+            "rating": 5,
+            "image_url": "",
+            "image": "FP743584_Dalblads_15xSwebar-55-g-Mintchocolate_1220.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP8637-1-KD.MASTER",
+            "name": "Star Vegan Protein",
+            "description": "Vegan Protein Bar is a vegan and gluten-free protein bar from Star Nutrition. The bar combines a fabulous taste and texture with good nutritional values. Protein bar with a high protein and fiber content. It is a tasty bar that can be used as a good and filling snack or as a useful substitute for your regular sweets.",
+            "price": 10.04,
+            "category": 2,
+            "rating": 2.3,
+            "image_url": "",
+            "image": "FP8637-1_star_nutrition_12_x_vegan_protein_bar_50_g_2NY.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP9789-650R",
+            "name": "Barebells Double bite Protein Bar",
+            "description": "Double bite Protein Bar contains plenty of protein, tastes wonderfully good and has a fantastic mouthfeel. It also contains no added sugar and with a high content of fiber, it is excellent as a luxury snack.",
+            "price": 20.44,
+            "category": 2,
+            "rating": 5,
+            "image_url": "",
+            "image": "FP9789-651_SE_BB_DoubleBiteBarsBox_ChocolateCrips_aug20.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "6514-1R",
+            "name": "Ultimate Diet Complex",
+            "description": "Ultimate Diet Complex from Star Nutrition is a good, low-calorie and filling powder developed to give you a complete nutritional profile during the diet. Ultimate Diet Complex can be used for weight loss or maintaining a healthy weight for both active and sedentary individuals.",
+            "price": 18.16,
+            "category": 2,
+            "rating": 4.1,
+            "image_url": "",
+            "image": "6514-1R_starnutrition_UltimateDietComplex_Chocolate_1kg_feb20.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "38853R",
+            "name": "Mutant Whey 4,5 kg",
+            "description": "Mutant Whey consists of four different protein complexes that are absorbed in the different phases of the digestive process. This means that your body can utilize the essential and non-essential amino acids of whey protein to the max.",
+            "price": 71.08,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "38853R_Mutant_Whey-4,5kg-vanilla_juli20.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "9919-0578R",
+            "name": "Vegan Protein, 750 g",
+            "description": "Weidar Vegan protein contains a pea powder that is equivalent to whey protein. It is in turn enriched with rice protein which is beneficial for your muscle building. Feel free to try the vegan protein from Weidar, which has plenty of protein-rich ingredients from the plant kingdom. The product is added to your training drink to increase the taste and nutritional value.",
+            "price": 26.37,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "",
+            "image": "9919-0578-vegan-protein_-750-g_-chocolate_1.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "6947-001R",
+            "name": "100% Casein Gold Standard",
+            "description": "Optimum Nutritions 100 % Casein Gold Standard är ett kvalitativt proteintillskott som inte behöver tas direkt före eller efter träning för bästa resultat. Det har nämligen en ”tidsfördröjd” verkan och passar därför bra under hela dagen, men framför allt precis innan du går och lägger dig. Då får musklerna en jämn ström av aminosyror under hela natten och goda förutsättningar att återhämta sig.",
+            "price": 31.85,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "100-casein-gold-standard-optimum-nutrition_1.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "42-17R",
+            "name": "Super Meal, Supermass Nutrition",
+            "description": "Pro-Meal - An innovative meal replacement with a cruel taste and excellent nutritional values from Supermass Nutrition !. A tasty and simple alternative with excellent nutritional value when you have no time or desire to cook a whole meal. Developed especially for athletes: the product ensures that your body gets all the ingredients it needs for optimal recovery and development!.",
+            "price": 30.02,
+            "category": 1,
+            "rating": 3.3,
+            "image_url": "",
+            "image": "42-17R_Supermass_Super-meal-tropical-mango_0920.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP6000R",
+            "name": "24 x NOCCO BCAA, 330 ml",
+            "description": "NOCCO BCAA is the thirst quencher that has taken the fitness industry by storm! Quenching your thirst with something tasty and refreshing is nice enough as it is, but also being able to do it with content that is only beneficial for your active lifestyle makes it all extra good.",
+            "price": 39.15,
+            "category": 3,
+            "rating": 5,
+            "image_url": "",
+            "image": "SA001375_NOCCO_BCAA-330ml.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP8200-3R",
+            "name": "16 x Gainomax Recovery, 250 ml",
+            "description": "Gainomax Recovery - A potent milk-based recovery drink. Contains high quality protein in combination with carbohydrates and important nutrients. With its well-thought-out combination of fast protein, slow protein and fast carbohydrates, Gainomax Recovery provides all the nutrients needed for fast and efficient recovery.",
+            "price": 22.36,
+            "category": 3,
+            "rating": 4,
+            "image_url": "",
+            "image": "FP8200-3_Gainomax_16-x-Gainomax-Recovery-250-ml-Strawberry_1220.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP8778-1R",
+            "name": "12 x Reign Energy, 50 cl",
+            "description": "Reign Total Body Fuel is a new functional drink on the market that has just been launched. Reign Total Body Fuel contains everything a functional drink should; lots of caffeine for increased energy and concentration, Vitamin B3, B6 & B12 to keep your vitamin intake on top, l-arginine, and last but not least BCAA.",
+            "price": 17.07,
+            "category": 3,
+            "rating": 2.4,
+            "image_url": "",
+            "image": "FP8778-4_12x_reign_bcaa-amino-sour-apple_0220.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP36195",
+            "name": "24 x Red Bull Energy SugarFree",
+            "description": "Red Bull's energy drinks are appreciated all over the world by top athletes and students, during demanding working days and during long car journeys. Caffeine has been used for its stimulating effect on the human body since time immemorial and is found naturally in over 60 plants. Among other things, caffeine has the ability to give an increased feeling of alertness and helps to stimulate the ability to concentrate. One can of Red Bull Energy Drink 250ml contains 80mg of caffeine.",
+            "price": 35.5,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "setredbullsfree_1.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "FP8765-2",
+            "name": "24 x Monster Energy, 355 ml",
+            "description": "Monster Energy is a carbonated energy drink from Monster. The energy drink is the first in Monster Energy's taste series and is enriched with most vitamins, including taurine, ginseng, guarana and caffeine. This drink is suitable for you who need extra energy and love the taste of the original from Monster Energy! This jar is the slim variant!.",
+            "price": 28.84,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "",
+            "image": "SETMONSTERENERGY_Monster_Energy-Original_0220.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETCURSEPWOTSHIRT",
+            "name": "The Curse, 250 g + T-shirt",
+            "description": "The Curse - The PWO from Cobra Labs that makes you obsessed with weights! Efficient and well-composed performance enhancer for the brave! This deal includes a T-shirt at a discounted price!.",
+            "price": 36.41,
+            "category": 4,
+            "rating": 3,
+            "image_url": "",
+            "image": "SETCURSEPWOTSHIRT_The-Curse-250-g-T-shirt-01_0321.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETBASPAKETH",
+            "name": "Baspaketet, HERS",
+            "description": "The basic package HERS contains three key products that all active people benefit from. The products in the package are also the products that are included in our diet plan for girls.",
+            "price": 42.8,
+            "category": 4,
+            "rating": 2.3,
+            "image_url": "",
+            "image": "SETBASPAKETH.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETBASPAKETH",
+            "name": "4 x EAA+ Amino, 400 g",
+            "description": "4 x EAA + Amino, a dietary supplement from Delta Nutrition, is a highly-concentrated supplement with essential amino acids.",
+            "price": 87.32,
+            "category": 4,
+            "rating": 3.2,
+            "image_url": "",
+            "image": "SETDELTAEAABIG_Delta_4xEAA-Amino-400-g_0121.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETDELTAGROW",
+            "name": "Delta Growth Pack (Creatine)",
+            "description": "Delta Growth Pack contains Creatine, Gainer and Alpha Booster to optimize your training!",
+            "price": 60.31,
+            "category": 4,
+            "rating": 4.1,
+            "image_url": "",
+            "image": "SETDELTAEAABIG_Delta_4xEAA-Amino-400-g_0121.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETDELTAGROW",
+            "name": "24 x Star Nutrition Amino 330 ml",
+            "description": "Mix your own favorites at Star Nutrition Amino Energy! You can choose between 3 different flavors. Carbonated drinks with amino acids and caffeine are popular products - with every right. They taste good, liven up and are a convenient way to absorb amino acids during the day.",
+            "price": 30.02,
+            "category": 4,
+            "rating": 3.6,
+            "image_url": "",
+            "image": "SETMIXAMINO_24xStarNutritionAminoEnergy__Mixadesmaker.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "ICIW-455R",
+            "name": "Queen Mesh Tights, Grey",
+            "description": "ICIW Seamless High Waist Tights also known as Queen Mesh Tights from ICIW..",
+            "price": 63.78,
+            "category": 5,
+            "rating": 3,
+            "image_url": "",
+            "image": "ICIW-455R_ICIW_Queen-Mesh-Tights-Grey-Melange-01_dec20.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "90007100R",
+            "name": "Star High Tops, Black",
+            "description": "Perry High Tops Pro has a flat sole that gives you better contact with the surface, facilitates balance and a correct position of your feet.",
+            "price": 91.15,
+            "category": 5,
+            "rating": 5,
+            "image_url": "",
+            "image": "90007100r_gorilla_wear_perry_shoe.2png.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "SNA4000-BLK-R",
+            "name": "Perry High Tops Pro, White",
+            "description": "Star High Tops from Star Nutrition is a training shoe perfect for fitness and tough gym training.",
+            "price": 54.66,
+            "category": 5,
+            "rating": 3.5,
+            "image_url": "",
+            "image": "sna4000-blk-r5.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "10393-001R",
+            "name": "Activity Zip Hoodie, Black",
+            "description": "A ziphoodie from ICIW that all girls should have in their wardrobe. Timeless and stylish design with a stretchy and durable material.",
+            "price": 63.78,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "10393-001r_activity_zip_hoodie_black_4.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "69001R",
+            "name": "Deep Neck Crop Top, Black",
+            "description": "Deep Neck Crop Top - Training bra from NEBBIA with deep neckline! It is made of an elastic functional material with ventilating properties. Excellent for activities both on and off the gym.",
+            "price": 25.46,
+            "category": 5,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "69001R_NEBBIA_Deep-Neck-Crop-Top-Black-001_0420.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "90001905-RED-41R",
+            "name": "GW High Tops, Red",
+            "description": "Lightweight training shoes in a comfortable model! G! WEAR High Tops from Gorilla Wear are excellent for indoor training with their flat sole and stable buttoning.",
+            "price": 72.9,
+            "category": 6,
+            "rating": 3.5,
+            "image_url": "",
+            "image": "g-wear-high-tops-red-41-gorilla-wear_3.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "121013999R",
+            "name": "Stanton Sweatpants",
+            "description": "Stanton Sweatpants - Super comfortable soft pants from Better Bodies that will soon be your new favorite!.",
+            "price": 63.78,
+            "category": 6,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "121013999r_stanton_sweatpants_black_1.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "220894999R",
+            "name": "GASP Logo Hoodie, Black",
+            "description": "GASP Logo Hoodie – En klassisk pullover hoodie från GASP med en praktisk känguruficka!",
+            "price": 63.78,
+            "category": 6,
+            "rating": 3.9,
+            "image_url": "",
+            "image": "220894999R_GASP_Logo-Hoodie-Black-01_okt20.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "CNG4000-BLK.MASTER",
+            "name": "Chained Gym bag 42, Black",
+            "description": "A perfect bag of 42 liters for your workout or why not as a weekend bag. The bag has an outer coating that makes it withstand weather and wind perfectly. There is a large separate compartment where you can advantageously choose to store your training shoes separately or perhaps the used training clothes when you finish training.",
+            "price": 63.78,
+            "category": 6,
+            "rating": 4.1,
+            "image_url": "",
+            "image": "CNG4000-BLK.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "SNA1010-BLKR",
+            "name": "Star Nutrition Tank Top, Black",
+            "description": "Stylish linen with a more discreet print on the front of the chest, classic fit with wrestling back. Match with tapered pants or shorts in the same series from Star Nutrition Gear.",
+            "price": 18.16,
+            "category": 6,
+            "rating": 5,
+            "image_url": "",
+            "image": "sna1010-blkr--star-nutrition-tank-top_-black_front.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "105236-020R",
+            "name": "RX Knee Sleeve, 3mm, Black/Red",
+            "description": "RX Knee Sleeve, 3mm, Black / Red - Stable knee support in ergonomic design from Rehband! Thin model with extra flexibility!.",
+            "price": 22.72,
+            "category": 7,
+            "rating": 3,
+            "image_url": "",
+            "image": "105236-020r_-_rx_knee_sleeve_3mm_black_red_1.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "1089-105.MASTER",
+            "name": "Gym Chalk magnesium",
+            "description": "Magnesium can be used to advantage in all types of training to maximize your grip. Dries out sweat and provides a perfect grip for, for example, strength training, climbing and gymnastics. One package contains a total of 8 blocks of 68 g with magnesium carbonate.",
+            "price": 27.29,
+            "category": 7,
+            "rating": 2.8,
+            "image_url": "",
+            "image": "1089-105_Gym-Chalk_magnesium-8-block-01_0121.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "230110-999-LR",
+            "name": "GASP Training Belt, Black",
+            "description": "Really strong and durable belt for a successful day at the gym! Black Amara on the outside and natural suede on the inside.",
+            "price": 82.03,
+            "category": 7,
+            "rating": 4,
+            "image_url": "",
+            "image": "230110-999-lr_1.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "1086-02.MASTER",
+            "name": "Procclusion 2.0, svart",
+            "description": "Leg occlusion band and the sequel to Procclusion 1.0 - perfect for you who want to build size, strength or rehab!",
+            "price": 30.02,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "_dsc6540.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "1081-3R",
+            "name": "WODies FULL Camo Grey",
+            "description": "WODIES FULL Camo Gray, is a new kind of training glove that both protects the hands and provides support for the wrists. WODies give you a strong grip without it happening at the expense of a high level of comfort.",
+            "price": 36.04,
+            "category": 7,
+            "rating": 5,
+            "image_url": "",
+            "image": "1081-3r_wodies_full_camo_grey_1.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "270-200040.MASTER",
+            "name": "TITAN LIFE Bike B65",
+            "description": "TITAN LIFE B65 is suitable for you who are looking for an exercise bike with high performance and feel. With a low entry, you can easily get on and off the bike. The B65 has a flywheel that gives a feeling of 11 kg, which gives it a smooth ride.",
+            "price": 465.23,
+            "category": 8,
+            "rating": 3.7,
+            "image_url": "",
+            "image": "270-200040_TITAN-LIFE_Bike-B65-01_0920.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "CN-69861.MASTER",
+            "name": "TRX Home2",
+            "description": "With TRX, you train functionally with your own body weight as a load. Use hundreds of different angles and exercises for a complete full body workout!.",
+            "price": 209.4,
+            "category": 8,
+            "rating": 5,
+            "image_url": "",
+            "image": "cn-69861_trx_home2_1.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "SETIRONGYM1",
+            "name": "Iron Gym Home training package",
+            "description": "Kit from Iron Gym that is perfect for home training.",
+            "price": 80.2,
+            "category": 8,
+            "rating": 5,
+            "image_url": "",
+            "image": "SETIRONGYM1_Iron-Gym_Hemmatraningspaket_0520.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "373383.MASTER",
+            "name": "Abilica StepUp Pro",
+            "description": "Abilica StepUp Pro - Stylish step board from Abilica with two height choices and rubber-coated surface for optimal footing, perfect for both home use and gym!",
+            "price": 109.4,
+            "category": 8,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "373383_Abilica_StepUp-Pro-01_0620.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "2009-A-01.MASTER",
+            "name": "Thor Fitness Airbike",
+            "description": "Thor Fitness Airbike is excellent for both warming up and training. The bike is designed so you work with both arms and legs for effective training of large parts of the body.",
+            "price": 999.07,
+            "category": 8,
+            "rating": 5,
+            "image_url": "",
+            "image": "2009-A-01_Thor-Fitness_Airbike_maj20_01.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "NDR-858-1R",
+            "name": "Yogabolster 60 cm",
+            "description": "Yoga upholstery 60 cm - A larger variant of yoga upholstery from Nyttadesign that is perfect for different yoga and relaxation positions.",
+            "price": 56.48,
+            "category": 9,
+            "rating": 5,
+            "image_url": "",
+            "image": "NDR-858-1R-Yogabolster-60-cm-Svart_Nyttadesign_0620.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "62071-1.MASTER",
+            "name": "Grippy Yoga-Barre Socks S/M",
+            "description": "Grippy Yoga-Barre Socks - a pair of stylish and smart ballet-inspired socks from Gaiam with anti-slip sole. Developed to enable yoga training without a mat!.",
+            "price": 13.6,
+            "category": 9,
+            "rating": 3,
+            "image_url": "",
+            "image": "62071-1.MASTER-Grippy-Yoga-Barre-Socks_62071-1_Grippy-Yoga-Barre_Socks_Gaiam_0420.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "62432.MASTER",
+            "name": "6mm Yoga Mat Sundial Layers",
+            "description": "Yoga Mat Sundial Layers - the texture of the mat is made to prevent you from slipping out of position and giving you a good grip.",
+            "price": 45.53,
+            "category": 9,
+            "rating": 3.9,
+            "image_url": "",
+            "image": "62432_gaiam_6mm_yoga_mat_sundial_layers_2.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "52214R",
+            "name": "Gaiam Yoga Block",
+            "description": "Gaiam Yoga Block - Is a handy block with multiple uses. Developed to facilitate the learning of new movements!.",
+            "price": 13.6,
+            "category": 9,
+            "rating": 4,
+            "image_url": "",
+            "image": "storm-grey-block-gaiam_1.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "NDR-843-1R",
+            "name": "Meditation pillow Maxi",
+            "description": "Meditation pillow Maxi from Nytta Design - A relaxation pillow in 100% eco-cotton. This bean-shaped model is perfect for meditation.",
+            "price": 44.62,
+            "category": 9,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "NDR-843-1R_meditationskudde-maxi_Svart_nyttadesign_0420.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "62710R",
+            "name": "Easy Grip Water Bottle",
+            "description": "Easy Grip Water Bottle - Water bottle from Gaiam with a nice pattern! Holds 750ml and is made of stainless steel.",
+            "price": 18.16,
+            "category": 10,
+            "rating": 2,
+            "image_url": "",
+            "image": "62711_easy-grip_water_bottle_marina_25_oz.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "500620.MASTER",
+            "name": "BlenderBottle Radian Insulated",
+            "description": "Safest shaker now In stainless steel You get a good and lump-free shake every time. With its double walls, keeps your drink chilled for up to 24 hours without condensation on the bottle.",
+            "price": 19.96,
+            "category": 10,
+            "rating": 5,
+            "image_url": "",
+            "image": "500620_blenderbottle_radian_insulated_stainless_steel_770ml_natural_black_1.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "289-80106801.MASTER",
+            "name": "WHEY2GO Funnel 110ml - Black",
+            "description": "With Whey2Go-Funnel, you carry your supplements in a flexible way. With the smart 2-way opening, you can easily and spill-free refill your shaker!.",
+            "price": 4.48,
+            "category": 10,
+            "rating": 5,
+            "image_url": "",
+            "image": "289-80106801_Smartshake_WHEY2GO-Funnel-110ml-Black_0320.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "11220-001.MASTER",
+            "name": "Stainless Steel Bottle 600 ml",
+            "description": "Stainless Steel Water Bottle 600 ml - Water bottle from ICANIWILL! The bottle is made of durable and stainless steel to keep your drink cold and to be used for life. The cap has a foldable straw and a loop so you can easily carry it with you. Stainless Steel Water Bottle 600 ml is available with a white or black logo.",
+            "price": 27.29,
+            "category": 10,
+            "rating": 3.3,
+            "image_url": "",
+            "image": "11220-001_ICANIWILL_Stainless-Steel-Water-Bottle-600-ml-Black-White-01_0321.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "110513S126ONE.MASTER",
+            "name": "Metal Bottle, Oyster Gray",
+            "description": "Metal Water Bottle - An environmentally smart water bottle from Röhnisch! It holds 500ml and is suitable for both hot and cold drinks. Metal Water Bottle is made of food grade stainless steel.",
+            "price": 27.29,
+            "category": 10,
+            "rating": 3.3,
+            "image_url": "",
+            "image": "110513S126ONE_Rohnisch_Metal-Water-Bottle-Oyster-Gray-01_0720.jpg"
+        }
+    }
+]

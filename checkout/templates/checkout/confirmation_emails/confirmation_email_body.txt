@@ -1,0 +1,22 @@
+Hello {{ order.user }}!
+
+This is a confirmation of your order at Gymstore. Your order information is below:
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.created }}
+
+Order Total: ${{ order.total }}
+Delivery: ${{ order.delivery_cost }}
+Grand Total: ${{ order.grand_total }}
+
+Your order will be shipped to {{ order.billingAdress1 }} in {{ order.billingCity }}, {{ order.billingCountry }}.
+
+We've got your phone number on file as {{ order.phone }}.
+
+If you have any questions, feel free to contact us at {{ contact_email }}.
+
+Thank you for your order!
+
+Sincerely,
+
+Boutique Ado

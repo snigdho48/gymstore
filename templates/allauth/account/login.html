@@ -1,0 +1,109 @@
+{% block inner_content %}
+    {% load i18n %}
+
+
+    {% load static %}
+    {% block extra_css %}
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+              id="bootstrap-css">
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    {% endblock %}
+    {% block extra_js %}
+
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    {% endblock %}
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+        <div class="box-title btn btn-primary mb-3">
+                    <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
+                </div>
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+
+                <p>{% blocktrans %}If you have not created an account yet, then please
+                    <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+
+
+            </div>
+
+
+            <!-- Login Form -->
+            <form class="login" method="POST" action="{% url 'account_login' %}">
+                {% csrf_token %}
+                {{ form }}
+                <br><br>
+
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="{% url 'account_reset_password' %}">Forgot Password?</a> or
+                <a class="underlineHover" href="{{ signup_url }}">Signup</a>
+                <br><br>
+                <a class="underlineHover" href="{% url 'home' %}">Back to Home</a>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    {#    {% load i18n %}#}
+    {#    {% load account socialaccount %}#}
+    {##}
+    {#    {% block head_title %}{% trans "Sign In" %}{% endblock %}#}
+    {##}
+    {##}
+    {#    <hr>#}
+    {#    <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>#}
+    {#    <hr>#}
+    {##}
+    {#    {% get_providers as socialaccount_providers %}#}
+    {##}
+    {#    {% if socialaccount_providers %}#}
+    {#        <p>{% blocktrans with site.name as site_name %}Please sign in with one#}
+    {#            of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>#}
+    {#            for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>#}
+    {##}
+    {#        <div class="socialaccount_ballot">#}
+    {##}
+    {#            <ul class="socialaccount_providers">#}
+    {#                {% include "socialaccount/snippets/provider_list.html" with process="login" %}#}
+    {#            </ul>#}
+    {##}
+    {#            <div class="login-or">{% trans 'or' %}</div>#}
+    {##}
+    {#        </div>#}
+    {##}
+    {#        {% include "socialaccount/snippets/login_extra.html" %}#}
+    {##}
+    {#    {% else %}#}
+    {#        <p>{% blocktrans %}If you have not created an account yet, then please#}
+    {#            <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>#}
+    {#    {% endif %}#}
+    {##}
+    {#    <form class="login" method="POST" action="{% url 'account_login' %}">#}
+    {#        {% csrf_token %}#}
+    {#        {{ form|crispy }}#}
+    {#        {% if redirect_field_value %}#}
+    {#            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>#}
+    {#        {% endif %}#}
+    {#        <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Home</a>#}
+    {#        <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>#}
+    {#        <p class="mt-2">#}
+    {#            <a class="button secondaryAction"#}
+    {#               href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>#}
+    {#        </p>#}
+    {#    </form>#}
+{% endblock %}

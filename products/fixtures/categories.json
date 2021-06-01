@@ -1,0 +1,81 @@
+[{
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "protein",
+            "friendly_name": "Protein"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "powerbars",
+            "friendly_name": "Powerbars"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "energy_drinks",
+            "friendly_name": "Energy_Drinks"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "finished",
+            "friendly_name": "Finished_Packages"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "her",
+            "friendly_name": "Clothes_For_Her"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "him",
+            "friendly_name": "Clothes _For _Him"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "personal",
+            "friendly_name": "Personal_Equipment"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "home",
+            "friendly_name": "Home_Gym"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "yoga",
+            "friendly_name": "Yoga"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "water_bottles",
+            "friendly_name": "Bottles"
+        }
+    }
+]

@@ -1,0 +1,246 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: black;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* header section*/
+.shop-button {
+    background: red;
+    color: white;
+    min-width: 260px;
+    border-radius: 20%;
+}
+
+.indice {
+    flex-basis: 50%;
+    min-width: 300px;
+    margin: 200px 0 0 0;
+    padding: 50px 0 0 250px;
+
+}
+
+.col-6 img {
+    max-width: 60%;
+    padding: 50px 0;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: black;
+	z-index: -1;
+}
+
+/*navbar*/
+
+
+/*product detail section*/
+.product_title{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.product_text{
+    padding-right: 189px;
+    color: white;
+    font-size: 20px;
+}
+
+.product_description{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.text-info{
+    font-size: 30px;
+}
+
+/*button Product Page*/
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+.boton-compra {
+    display: block;
+    width: 60%;
+}
+
+/*cart section*/
+.cart_table{
+    min-width: 400px;
+    font-size: 14px;
+}
+
+.cart_thead{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background-color: black !important;
+}
+
+.cart_icon{
+    text-decoration: none;
+    color: lightgreen !important;
+}
+.product_title{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.text-info{
+    font-size: 16px;
+}
+
+.w-50{
+    width: 10%;
+}
+
+.tallas{
+    padding: 0 0 25px 0;
+    max-width: 22%;
+}
+
+/* Checkout section*/
+.parrafo {
+    color: white;
+    font-size: 20px;
+    padding: 0 0 0 15px;
+}
+
+.parrafo_2 {
+    color: white;
+    font-size: 30px;
+    padding: 0 0 0 15px;
+}
+
+.text-white {
+    font-size: 20px;
+}
+/* Allauth form formatting */
+
+.allauth-form-inner-content p {
+    margin-top: 1.5rem; /* mt-4 */
+    color: #6c757d; /* text-secondary */
+}
+
+.allauth-form-inner-content input {
+    border-color: #000;
+    border-radius: 0;
+}
+
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-inner-content input::placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content button,
+.allauth-form-inner-content input[type='submit'] {
+	/* btn */
+	display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+
+    /* standard bootstrap btn transitions */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.allauth-form-inner-content button:hover,
+.allauth-form-inner-content input[type='submit']:hover {	
+	color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+
+.allauth-form-inner-content a {
+	color: #17a2b8; /* text-info */
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+
+
+
+
+
+/* Media Queries*/
+@media (min-width: 280px) and (max-width: 768px){
+    .product_title {
+        font-size: 10px;
+    }
+    .mt-3, .my-3 {
+    margin-top: -2rem!important;
+}
+    .product_description{
+        font-size: 10px;
+    }
+
+  .product_text{
+    color: white;
+    font-size: 20px;
+}
+
+}

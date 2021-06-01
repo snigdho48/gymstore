@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="image-container my-5">
+                {% if product.image %}
+                <a href="{{ product.image.url }}" target="_blank">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-10 mx-auto col-md-6 my-3">
+            <div>
+                <h1 class="product_title ">{{product.name}}</h1>
+                <h5 class="text-info font-italic mb-3">
+                    <span class="mr-1 ">€ </span> {{product.price}}
+                    <br>
+                    <small class="text-light"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                </h5>
+                <p class="product_description">Product Description</p>
+                <p class="text-justify product_text">{{product.description}}</p>
+                    {% with product.has_sizes as s %}
+                    {% if s %}
+                    <div class="col-12 tallas">
+                        <p><strong class="text-white">Size:</strong></p>
+                        <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m" selected>M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+                    {%if product.stock > 0 %}
+                    <a href="{% url 'add_cart' product.id %}" class="btn btn-secondary">
+                        Add to Cart
+                    </a>
+                    {%endif%}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

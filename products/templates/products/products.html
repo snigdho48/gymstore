@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<main>
+    <div class="album py-5 bg-black">
+        <div class="container">
+            <div class="titulo h2 text-light text-center py-0 ">{% firstof category_name  "All Products"%}</div>
+            <div class="col-12 col-md-6 order-md-first">
+                        <p class="text-light mt-3 text-center text-md-left">
+                            {% if search_term or current_categories or current_sorting != 'None_None' %}
+                                <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                            {% endif %}
+                            {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+                        </p>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+                
+                {% for product in products %}
+                <div class="col">
+                    <div class="card-1 shadow-sm">
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="img-fluid" alt="No image found" src="{{ product.image.url }}" title="Click to view">
+                        </a>
+                        
+                        <div class="card-body">
+                            <p class="mb-0 text-light">{{product.name}}</p>
+                              {% if product.rating %}
+                                <small class="text-light"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                                {% else %}
+                                <small class="text-muted">No Rating</small>
+                                {% endif %}
+                                 <p class="small mt-1 mb-0">
+                                                <a class="text-light" href="{% url 'products' %}?category={{ product.category.name }}">
+                                                    <i class="fas fa-box-open mr-1"></i>{{ product.category.friendly_name }}
+                                                </a>
+                                            </p>
+                            <hr>
+                             {%if product.stock > 0 %}               
+                            <a href="{% url 'add_cart' product.id %}"
+                                class="btn btn-outline-secondary add-btn update-cart text-light">Add to Cart</a>
+                            {%else%}
+                             <h5 style="color: white;">Out of stock</h5>
+                            {%endif%}
+                            <a class="btn btn-outline-success text-light" href="{% url 'product_detail' product.id %}">View</a>
+                            <h4 style="display: inline-block" class="text-light"><strong>${{product.price}}</strong></h4>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>  
+</main>
+  <div class="btt-button shadow-sm rounded-0 border border-white">
+            <a class="btt-link d-flex h-100">
+            <i class="fas fa-arrow-up text-white mx-auto my-auto"></i>
+            </a>	
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+    </script>
+    {% endblock %}
