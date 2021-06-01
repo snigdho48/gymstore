@@ -1,0 +1,34 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    {% block meta %}
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% endblock %}
+
+    {% block corecss %}
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock %}
+
+    {% block extra_css %}
+    {% endblock %}
+
+
+    {% block extra_js %}
+    {% endblock %}
+
+    <title>GymStore {% block extra_title %}{% endblock %}</title>
+</head>
+<body>
+{% block inner_content %}
+{% endblock %}
+</body>
+</html>
+
+

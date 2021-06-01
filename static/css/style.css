@@ -8,6 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    width: 100% !important;
 }
 
 /* from Bulma */
@@ -23,21 +24,24 @@ body {
 .shop-button {
     background: red;
     color: white;
-    min-width: 260px;
+    max-width: 260px;
     border-radius: 20%;
 }
 
 .indice {
     flex-basis: 50%;
     min-width: 300px;
-    margin: 200px 0 0 0;
-    padding: 50px 0 0 250px;
+    /*padding: 50px 0 0 250px;*/
 
+}
+.content {
+    margin-top:10vh;
+    padding-left: 15vw;
+    padding-right:15vw;
 }
 
 .col-6 img {
-    max-width: 60%;
-    padding: 50px 0;
+ min-width:50%;
 }
 
 .overlay {
@@ -51,7 +55,6 @@ body {
 }
 
 /*navbar*/
-
 
 /*product detail section*/
 .product_title{
@@ -215,6 +218,12 @@ body {
         left: 0;
         z-index: 1030;
     }
+    .shop-button {
+    background: red;
+    color: white;
+    min-width: 260px;
+    border-radius: 20%;
+}
 
     .header-container {
         padding-top: 164px;
@@ -227,20 +236,49 @@ body {
 
 
 /* Media Queries*/
-@media (min-width: 280px) and (max-width: 768px){
+@media (min-width: 280px) and (max-width: 768px) {
     .product_title {
         font-size: 10px;
     }
+
     .mt-3, .my-3 {
-    margin-top: -2rem!important;
-}
-    .product_description{
+        margin-top: -2rem !important;
+    }
+
+    .product_description {
         font-size: 10px;
     }
 
-  .product_text{
-    color: white;
-    font-size: 20px;
-}
+    .product_text {
+        color: white;
+        font-size: 20px;
+    }
+    .nav-last{
+        justify-content:center !important;
+        margin-top: 15px !important;
+        margin-left: 4px !important;
+    }
+    .logo-small{
+        max-width: 110px;
 
+    }
+    .main-nav{
+        justify-content:center !important;
+    }
+
+
+}
+.logo-small{
+    max-width: 120px;
+    max-height: 80px;
+    margin-top: -7px;
+
+}
+.nav-link{
+        padding: 5px !important;
+
+    }
+.navbar-brand{
+    margin-right: 0px !important;
+    padding:0!important;
 }

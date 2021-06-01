@@ -10,17 +10,20 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100 w-100">
-        <div class="row  principal h-100 w-100">
-            <div class="col-8 indice ">
-            <h1 class="text-light">Give your Workout<br>A NEW STYLE!</h1>
-            <p class="text-light">Success isn't always about greatness.It's about consistency. <br>Consistent Hard work gains Success.
-                Greatness will come.</p>
-            <a href="{% url 'products' %}" class="shop-button btn btn-lg text-uppercase py-3">Shop Now</a>
-        </div>
-        <div class="col-6">
-            <img src="media/pexels-patricia-hildebrandt.jpg" alt="cathy">
-        </div>
+    <div class=" h-100 w-100 content">
+        <div class="row  principal h-100 w-100 col-12 d-flex justify-content-center ">
+            <div class="col indice d-flex justify-content-center col-md-7 col-lg-9">
+                <div>
+                    <h1 class="text-light">Give your Workout<br>A NEW STYLE!</h1>
+                    <p class="text-light">Success isn't always about greatness.It's about consistency. <br>Consistent
+                        Hard work gains Success.
+                        Greatness will come.</p>
+                    <a href="{% url 'products' %}" class="shop-button btn btn-lg text-uppercase py-3">Shop Now</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+                <img class="img-fluid" src="media/pexels-patricia-hildebrandt.jpg" alt="cathy">
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -1,21 +1,80 @@
-{% extends "account/base.html" %}
+{% extends "account/new_base.html" %}
 
 {% load i18n %}
 
-{% block head_title %}{% trans "Signup" %}{% endblock %}
+{% block head_title %}{% trans "Login" %}{% endblock %}
+{% block inner_content %}
 
-{% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+    {% load static %}
+    {% block extra_css %}
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
-</form>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+              id="bootstrap-css">
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    {% endblock %}
+    {% block extra_js %}
+
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    {% endblock %}
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="wrapper fadeInDown mb-1">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+        <div class="box-title btn btn-success mb-3">
+                    <h2 class="logo-font mb-4">{% trans "Sign Up" %}</h2>
+                </div>
+
+            <!-- Icon -->
+
+
+            <!-- Login Form -->
+            <form class="login" id="signup_form" method="POST" action="{% url 'account_signup' %}">
+                {% csrf_token %}
+                {{ form }}
+                <br><br>
+                {% for messages in message %}
+                    {{ message }}
+                {% endfor %}
+                <input type="submit" class="fadeIn fourth" value="Signup">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="{{ login_url }}">Log in</a>
+                <br><br>
+                <a class="underlineHover" href="{% url 'home' %}">Back to Home</a>
+
+            </div>
+
+
+        </div>
+    </div>
 
 {% endblock %}
+
+{#{% extends "account/base.html" %}#}
+{##}
+{#{% load i18n %}#}
+{##}
+{#{% block head_title %}{% trans "Signup" %}{% endblock %}#}
+{##}
+{#{% block content %}#}
+{#<h1>{% trans "Sign Up" %}</h1>#}
+{##}
+{#<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>#}
+{##}
+{#<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">#}
+{#  {% csrf_token %}#}
+{#  {{ form.as_p }}#}
+{#  {% if redirect_field_value %}#}
+{#  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />#}
+{#  {% endif %}#}
+{#  <button type="submit">{% trans "Sign Up" %} &raquo;</button>#}
+{#</form>#}
+{##}
+{#{% endblock %}#}

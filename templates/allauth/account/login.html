@@ -1,5 +1,9 @@
+{% extends "account/new_base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
 {% block inner_content %}
-    {% load i18n %}
 
 
     {% load static %}
@@ -18,15 +22,15 @@
     {% endblock %}
     <!------ Include the above in your HEAD tag ---------->
 
-    <div class="wrapper fadeInDown">
+    <div class="wrapper fadeInDown mb-1">
         <div id="formContent">
             <!-- Tabs Titles -->
-        <div class="box-title btn btn-primary mb-3">
-                    <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
+        <div class="box-title btn btn-success mb-3">
+                    <h2 class="logo-font mb-4">{% trans "Log In" %}</h2>
                 </div>
 
             <!-- Icon -->
-            <div class="fadeIn first">
+            <div class="fadeIn first px-4">
 
                 <p>{% blocktrans %}If you have not created an account yet, then please
                     <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
