@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-<div class="container header-container">
+<div class="container header-container mt-2 pt-2">
     <div class="row">
         <div class="col"></div>
     </div>
@@ -13,7 +13,7 @@
 <main>
     <div class="album py-5 bg-black">
         <div class="container">
-            <div class="titulo h2 text-light text-center py-0 ">{% firstof category_name  "All Products"%}</div>
+            <div class="titulo h2 text-light text-center py-3 ">{% firstof category_name  "All Products"%}</div>
             <div class="col-12 col-md-6 order-md-first">
                         <p class="text-light mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
