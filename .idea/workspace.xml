@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="90f69267-00dd-40f8-91fc-93bbf9d4c36a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/allauth/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allauth/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/allauth/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allauth/account/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/templates/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,6 +88,7 @@
       <workItem from="1622563053784" duration="16875000" />
       <workItem from="1622617872340" duration="1810000" />
       <workItem from="1622637322473" duration="1676000" />
+      <workItem from="1622650606402" duration="11446000" />
     </task>
     <servers />
   </component>

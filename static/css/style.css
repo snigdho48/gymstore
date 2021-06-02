@@ -103,7 +103,7 @@ body {
 
 /*cart section*/
 .cart_table{
-    min-width: 400px;
+    /*min-width: 400px;*/
     font-size: 14px;
 }
 

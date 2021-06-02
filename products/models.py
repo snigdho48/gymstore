@@ -19,6 +19,13 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# class Size(models.Model):
+#     choice = models.CharField(max_length=154, unique=True)
+#
+#     def __str__(self):
+#         return self.choice
+
+
 class Product(models.Model):
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     sku = models.CharField(max_length=250, blank=True)
@@ -30,6 +37,7 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
     stock = models.IntegerField(null=True, blank=True)
     has_sizes = models.BooleanField(default=True, null=True, blank=True)
+    # size = models.ManyToManyField(Size)
 
     class Meta:
         ordering = ('name',)
