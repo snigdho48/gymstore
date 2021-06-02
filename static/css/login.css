@@ -9,9 +9,10 @@ body {
     height: auto;
     background-color: rgba(13, 2, 11, 0.93);
 }
+
 @media (max-width: 550px) {
-    .wrapper{
-        padding:20vh 0vw !important;
+    .wrapper {
+        padding: 20vh 0vw !important;
     }
 }
 
@@ -398,7 +399,7 @@ h2 {
     text-transform: uppercase;
     display: flex;
     margin-top: 25px;
-    color: #cccccc;
+    color: #ffffff;
     justify-content: center;
 }
 
@@ -406,4 +407,9 @@ h2 {
     width: 20vw;
     padding: 1px;
     margin-top: -30px;
+    background-color: #8064a2 !important;
+
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
 }

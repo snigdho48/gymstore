@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="90f69267-00dd-40f8-91fc-93bbf9d4c36a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/checkout_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/checkout_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/templates/profiles/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/templates/profiles/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/allauth/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allauth/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/allauth/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allauth/account/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi4/gymstore-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -84,6 +81,7 @@
       <workItem from="1622561988000" duration="1035000" />
       <workItem from="1622563053784" duration="16875000" />
       <workItem from="1622617872340" duration="1810000" />
+      <workItem from="1622637322473" duration="1676000" />
     </task>
     <servers />
   </component>
@@ -95,6 +93,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="141" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1622539586166" />
+    <state x="466" y="142" width="424" height="493" key="FileChooserDialogImpl" timestamp="1622637344058">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="142" width="424" height="493" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1622637344058" />
     <state x="187" y="19" width="992" height="739" key="SettingsEditor" timestamp="1622539629188">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
