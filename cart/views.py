@@ -37,19 +37,28 @@ def add_cart(request, product_id):
         cart.save()
     try:
         cart_item = CartItem.objects.get(product=product, cart=cart)
-        # if request.method == 'POST':
-        #     size = request.POST['product_size']
-        #     cart_item.size = size
-        if cart_item.quantity < cart_item.product.stock:
-            cart_item.quantity += 1
-        cart_item.save()
+        if request.method == 'POST':
+            cart_item.size = request.POST['product_size']
+            if cart_item.quantity < cart_item.product.stock:
+                cart_item.quantity += 1
+            cart_item.save()
+            print(cart_item.size)
+        else:
+            if cart_item.quantity < cart_item.product.stock:
+                cart_item.quantity += 1
+            cart_item.save()
     except CartItem.DoesNotExist:
         cart_item = CartItem.objects.create(
             product=product,
             quantity=1,
-            cart=cart
+            cart=cart,
+
         )
-        cart_item.save()
+        if request.method == 'POST':
+            cart_item.size = request.POST['product_size']
+            cart_item.save()
+        else:
+            cart_item.save()
 
     return redirect('cart_detail')
 

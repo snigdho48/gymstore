@@ -7,9 +7,42 @@
 {% endblock %}
 {% block content %}
     <style>
-    .table td{
-        padding:.75rem 0 !important;
-    }
+        .table td {
+            padding: .75rem 0 !important;
+        }
+
+        @media (min-width: 576px) {
+            .my-row {
+                display: flex !important;
+                -ms-flex-wrap: wrap !important;
+                flex-wrap: wrap !important;
+            }
+
+
+
+        }
+
+        @media (max-width: 575px) {
+            .sm {
+                flex-basis: 0 !important;
+                flex-grow: 1 !important;
+                max-width: 100% !important;
+            }
+
+            .center {
+                display: flex;
+                justify-content: center;
+
+            }
+            .boton-compra {
+            width: 100%;
+        }
+
+        }
+
+
+
+
     </style>
     {% if not cart_items %}
         <div class="overlay"></div>
@@ -47,31 +80,39 @@
                                     <img src="{{ cart_item.product.image.url }}" width="100" height="100" alt="">
                                 </a>
                             </td>
-                            <td class="text-left text-light">
-                                {{ cart_item.product.name }}
-                                <br>
-                                SKU: {{ cart_item.product.sku }}
-                                <br>
-                                Unit Price: $ {{ cart_item.product.price }}
-                                <br>
-                                Qty: {{ cart_item.quantity }} x {{ cart_item.product.price }}
-                                <br>
-                                Size: </strong>
-                                {% if cart_item.product.has_sizes %}{{ cart_item.product.size|upper }}{% else %}
-                                    N/A{% endif %}
+                            <td class="">
+                                <div class="text-left text-light pl-2">
+                                    {{ cart_item.product.name }}
+                                    <br>
+                                    SKU: {{ cart_item.product.sku }}
+                                    <br>
+                                    Unit Price: $ {{ cart_item.product.price }}
+                                    <br>
+                                    Qty: {{ cart_item.quantity }} x {{ cart_item.product.price }}
+                                    <br>
+                                    Size: </strong>
+                                    {% if cart_item.product.has_sizes %}{{ cart_item.size|upper }}{% else %}
+                                        N/A{% endif %}
+
+                                </div>
                             </td>
                             <td class="text-light text-left">
                                 Subtotal: $ {{ cart_item.sub_total }}
                             </td>
                             {% if cart_item.quantity < cart_item.product.stock %}
-                                <td class="text-left row">
-                                    &nbsp;<a href="{% url 'add_cart' cart_item.product.id %}">
-                                    <i class="fas fa-plus-circle cart_icon"></i></a>
-                                    <div class="text-white text" style="font-size:15px">{{ cart_item.quantity }}</div>
-                                    &nbsp;<a href="{% url 'cart_remove' cart_item.product.id %}">
-                                    <i class="fas fa-minus-circle cart_icon"></i></a>
-                                    &nbsp;<a href="{% url 'cart_remove_product' cart_item.product.id %}">
-                                    <i class="fas fa-trash-alt cart_icon"></i></a>
+                                <td class="text-left my-row">
+                                    <div class="sm">
+                                        &nbsp;<a href="{% url 'add_cart' cart_item.product.id %}">
+                                        <i class="fas fa-plus-circle cart_icon"></i></a>
+                                    </div>
+                                    <div class="sm">
+                                        &nbsp;<a href="{% url 'cart_remove' cart_item.product.id %}">
+                                        <i class="fas fa-minus-circle cart_icon"></i></a>
+                                    </div>
+                                    <div class="sm">
+                                        &nbsp;<a href="{% url 'cart_remove_product' cart_item.product.id %}">
+                                        <i class="fas fa-trash-alt cart_icon"></i></a>
+                                    </div>
                                 </td>
                             {% else %}
                                 <td>
@@ -84,19 +125,21 @@
                         </tr>
                     {% endfor %}
                 </table>
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row center">
+                    <div class="col-md-6 btn center">
                         <a href="{% url 'products' %}" style="text-decoration: none;">
-                            <button type="button" class="btn btn-lg btn-block boton-compra bg-success text-white">
+                            <button type="button" class="btn btn-lg btn-block boton-compra bg-success text-white"
+                                    style="font-size:17px;">
                                 Continue Shopping
                             </button>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 btn center">
                         <a href="{% url 'checkout' %}" style="text-decoration: none;">
                             <button type="button"
-                                    class="btn btn-lg btn-block boton-compra bg-success text-white float-md-right">
-                                Continue to checkout
+                                    class="btn btn-lg btn-block boton-compra bg-success text-white float-md-right"
+                                    style="font-size:17px;">
+                                Continue to Checkout
                             </button>
                         </a>
                     </div>

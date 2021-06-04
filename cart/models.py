@@ -23,7 +23,7 @@ class CartItem(models.Model):
     product = models.ForeignKey(Product, blank=False, on_delete=models.CASCADE)  # noqa:501
     cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
     quantity = models.IntegerField()
-    # size= models.CharField(max_length=200, blank=True)
+    size= models.CharField(max_length=200, blank=True)
     active = models.BooleanField(default=True)
 
     class Meta:

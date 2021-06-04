@@ -14,10 +14,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-                <div class="image-container my-5">
+                <div class="image-container mt-5">
                     {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid w-50" src="{{ product.image.url }}"
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}"
                                  alt="{{ product.name }}">
                         </a>
                     {% endif %}
@@ -40,7 +40,7 @@
 
                             <div class="col-12 tallas">
                                 <p><strong class="text-white">Size:</strong></p>
-                                <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                <select class="form-control rounded-0" name="product_size" id='id_product_size'>
                                     <option value="xs">XS</option>
                                     <option value="s">S</option>
                                     <option value="m" selected>M</option>
